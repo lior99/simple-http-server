@@ -1,0 +1,12 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "simple http web server to run on local port",
+  "main": "web-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node web-server.js"
+  },
+  "author": "Lior Shtivelman",
+  "license": "ISC"
+}
