@@ -1,11 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const PORT = 8080;
-
-const mimeTypes = {
-    'js': 'application/javascript',
-    'html': 'text/html' 
-}
+const mimeTypes = require('./mimeTypes.json');
 
 const getMimeType = extension => {
     return mimeTypes[extension];
